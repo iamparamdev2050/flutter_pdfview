@@ -85,7 +85,7 @@ class _PDFViewState extends State<PDFView> {
       Completer<PDFViewController>();
   @override
   Widget build(BuildContext context) {
-    if (defaultTargetPlatform == TargetPlatform.android) {
+    /*if (defaultTargetPlatform == TargetPlatform.android) {
       return AndroidView(
         viewType: 'plugins.endigo.io/pdfview',
         onPlatformViewCreated: _onPlatformViewCreated,
@@ -93,7 +93,8 @@ class _PDFViewState extends State<PDFView> {
         creationParams: _CreationParams.fromWidget(widget).toMap(),
         creationParamsCodec: const StandardMessageCodec(),
       );
-    } else if (defaultTargetPlatform == TargetPlatform.iOS) {
+    } else*/
+      if (defaultTargetPlatform == TargetPlatform.iOS) {
       return UiKitView(
         viewType: 'plugins.endigo.io/pdfview',
         onPlatformViewCreated: _onPlatformViewCreated,
