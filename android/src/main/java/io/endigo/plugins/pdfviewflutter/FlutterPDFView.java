@@ -15,13 +15,13 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
-/*import com.github.barteksc.pdfviewer.PDFView;
+import com.github.barteksc.pdfviewer.PDFView;
 import com.github.barteksc.pdfviewer.PDFView.Configurator;
 import com.github.barteksc.pdfviewer.listener.*;
 import com.github.barteksc.pdfviewer.util.Constants;
 import com.github.barteksc.pdfviewer.util.FitPolicy;
 
-import com.github.barteksc.pdfviewer.link.LinkHandler;*/
+import com.github.barteksc.pdfviewer.link.LinkHandler;
 
 public class FlutterPDFView implements PlatformView, MethodCallHandler {
     private final PDFView pdfView;
