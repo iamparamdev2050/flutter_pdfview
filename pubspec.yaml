@@ -15,11 +15,11 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-flutter:
-  plugin:
-    platforms:
-      android:
-        package: io.endigo.plugins.pdfviewflutter
-        pluginClass: PDFViewFlutterPlugin
-      ios:
-        pluginClass: FLTPDFViewFlutterPlugin
+#flutter:
+#  plugin:
+#    platforms:
+#      android:
+#        package: io.endigo.plugins.pdfviewflutter
+#        pluginClass: PDFViewFlutterPlugin
+#      ios:
+#        pluginClass: FLTPDFViewFlutterPlugin
